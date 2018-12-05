@@ -1,0 +1,24 @@
+{
+  "name": "bcv-xlsx-to-csv",
+  "version": "1.0.0",
+  "description": "Converts BCV XLSX export to CSV",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "author": "David Sandoz <david@sandoz.pro>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidsandoz/bcv-xlsx-to-csv.git"
+  },
+  "dependencies": {
+    "jsdom": "^13.0.0",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^12.2.0",
+    "@types/node": "^10.12.12"
+  }
+}
